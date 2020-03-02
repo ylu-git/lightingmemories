@@ -293,6 +293,13 @@ i.fas.fa-bars {
   div.col-xl-8.col-lg-12.carousel {
     width: 60% !important;
   }
+
+  .vertical-center {
+    min-height: 75;
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+}
 }
 
 @media screen 
@@ -360,9 +367,17 @@ and (max-height: 1000px) {
 }
 
 @media screen and (orientation:portrait) {
-  div.col-xl-8.col-lg-12.carousel {
+  /*div.col-xl-8.col-lg-12.carousel {
     padding-bottom: 30%;
-  }
+  }*/
+
+  .vertical-center {
+    min-height: 75;
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+}
+
   footer.footer {
     position: fixed;
     right: 0;
